@@ -99,7 +99,7 @@ This stylesheet will perform the following:
 				<!--Notes: Make this thumbail from the tiff files (if available) and give it dimensions of 200 x whatever scales -->
 				<foxml:datastream CONTROL_GROUP="M" ID="THUMBNAIL" STATE="A"> 
 					<foxml:datastreamVersion ID="THUMBNAIL.0" MIMETYPE="image/jpeg" LABEL="Thumbnail JPEG Image">
-						<foxml:contentLocation TYPE="URL"><!-- sets attribute of <foxml:digitalObject--><xsl:attribute name="REF"><xsl:value-of select="$fileLocation"/>thumbs<xsl:value-of select="normalize-space(mods:identifier)"/>.jpg</xsl:attribute></foxml:contentLocation>			
+						<foxml:contentLocation TYPE="URL"><!-- sets attribute of <foxml:digitalObject--><xsl:attribute name="REF"><xsl:value-of select="$fileLocation"/>thumbs/<xsl:value-of select="normalize-space(mods:identifier)"/>.jpg</xsl:attribute></foxml:contentLocation>			
 					</foxml:datastreamVersion>
 				</foxml:datastream> 
 				
