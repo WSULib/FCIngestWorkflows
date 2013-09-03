@@ -12,6 +12,7 @@
 
 <!--Collection Specific Variables-->
 <xsl:variable name="fileLocation" select="'URL OF THE access AND thumbs DIRECTORIES (e.g. http://141.217.54.38/~ej2929/fedora_dropbox/heart_transplant_images/heart_transplant/)'"/>
+<!--Leave out the word "collection" from this variable, as it creates PID as well.  Automatically added for RDF statements farther down.-->
 <xsl:variable name="collectionName" select="'COLLECTION NAME HERE'"/>
 	
 
